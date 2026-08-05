@@ -1,0 +1,39 @@
+#Casting Data
+#mengubah dari satu tipe ke tipe lainya
+
+
+print("===== INTEGER =====")
+data_integer = 0 #ini masih murni berbentuk integer
+print( "data : ", data_integer, ",", "tipe : ", type(data_integer) )
+
+data_float = float(data_integer)
+data_string = str(data_integer)
+data_bool = bool(data_integer)
+
+print( "data : ", data_float , ",", "tipe : ", type(data_float) )   #menjadi 9.0   
+print( "data : ", data_string , ",", "tipe : ", type(data_string) ) #
+print( "data : ", data_bool , ",", "tipe : ", type(data_bool) ) #selain 0,maka akan true
+
+print("===== FLOAT =====")
+data_float = 9.1 #ini masih murni berbentuk float
+print( "data : ", data_float, ",", "tipe : ", type(data_float) )
+
+data_int = int(data_float)
+data_string = str(data_float)
+data_bool = bool(data_float)
+
+print( "data : ", data_int , ",", "tipe : ", type(data_int) )   #menjadi 9 (tanpa koma) 
+print( "data : ", data_string , ",", "tipe : ", type(data_string) ) 
+print( "data : ", data_bool , ",", "tipe : ", type(data_bool) ) #selain 0,maka akan true
+
+print("===== BOOLEAN =====")
+data_bool = True #ini masih murni berbentuk boolean
+print( "data : ", data_bool, ",", "tipe : ", type(data_bool) )
+
+data_int = int(data_bool)
+data_string = str(data_bool)
+data_float = float(data_bool)
+
+print( "data : ", data_int , ",", "tipe : ", type(data_int) )   #menjadi 9 (tanpa koma) 
+print( "data : ", data_string , ",", "tipe : ", type(data_string) ) 
+print( "data : ", data_float , ",", "tipe : ", type(data_float) ) #selain 0,maka akan true

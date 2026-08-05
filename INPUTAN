@@ -1,0 +1,17 @@
+#INPUTAN
+
+#DATA YANG DIMASUKKAN PASTI STRING
+data = input("maukkan data : ")
+print("data : ", data, ",", "tipe data : ", type(data))
+
+#JIKA INGIN MENGAMBIL INT, MAKA : (CASTING DULU)
+angka = float(input("maukkan data : "))
+#angka = int(input("maukkan data : "))
+print("data : ", angka, ",", "tipe data : ", type(angka))
+
+#DATA YANG DIMASUKKAN BOOLEAN
+biner = bool(input("maukkan data : ")) #walaupun input 0 ataupun 1, output akan tetap true, solusinya adalah harus diintegernkan dulu
+print("data : ", biner, ",", "tipe data : ", type(biner))
+
+biner = bool(int(input("maukkan data : ")))
+print("data : ", biner, ",", "tipe data : ", type(biner))

@@ -1,0 +1,14 @@
+#integer (angka satuan)
+data_integer = 1000
+print("data", data_integer)
+print("bertipe", type(data_integer))
+
+#float(angka dengan koma)
+data_float = 1.5
+print("data : ", data_float)
+print("bertipe : ", type(data_float))
+
+#data string (kumpulan karakter)
+data_string = "str"
+print("data : ", data_string)
+print("bertipe : ", type(data_string))

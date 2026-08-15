@@ -1,0 +1,33 @@
+#OPERASI ARITMATIKA
+
+a = 10
+b = 3
+#OPERASI PENJUMLAHAN
+hasil = a + b
+print(a,"+", b, "=", hasil)
+
+#OPERASI PENGURANGAN
+hasil = a - b
+print(a,"-", b, "=", hasil)
+
+#OPERASI PERKALIAN
+hasil = a * b
+print(a,"*", b, "=", hasil)
+
+#OPERASI PEMBAGIAN
+hasil = a / b
+print(a,"/", b, "=", hasil)#pembagian hasilnya bertipe float
+print(type(hasil))
+
+#OPERASI EKSPONEN (PERPANGKATAN)
+hasil = a ** b
+print(a,"**", b, "=", hasil)
+print(type(hasil))
+
+#OPERASI MODULUS (SISA PEMBAGIAN)
+hasil = a % b
+print(a,"%", b, "=", hasil)
+
+#OPERASI FLOOR DIVISION (PEMBULATAN KE BAWAH, KEBALIKAN DARI MODULUS)
+hasil = a // b
+print(a,"//", b, "=", hasil)

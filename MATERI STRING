@@ -1,0 +1,39 @@
+#MATERI STRING
+
+#CARA MEMBUAT STRING
+
+#1. Menggunakan singgle quote
+#2. Menggunakan double quote
+print('menggunakan singgle quote')
+print("Hallo apa kabar")
+print('"Hallo apa kabar"')#petikan langsung
+
+#3. Penggunaan "\"
+print('saya menunggu jum\'at berkah') #menggunakan "\" untuk pemisah 
+
+#TAB(\t)
+print("ucup\ttotong jauhan")
+print("ucup\t \t \ttotong jauhan") #makin banyak makin jauh
+
+#BACKSPACE (\b)
+print("ucup \btotong deketa")#bagian sebelum "\b terhapus
+
+#NEWLINE"
+print('baris pertama \nbaris kedua')
+
+#4. RAW STRING
+print('C:\new folder') #akan jadi enter dan tidak beraturan
+
+print(r'C:\new folder') #jika diraw semua shortcut tidak berlaku
+
+#Multiline string
+print("""
+Nama : Daud Bonean
+NPT : 41.25.0059
+""")
+#bisa juga ditambah raw
+print(r'''www.daud.com\new.id
+Nama : Daud Bonean
+NPT : 41.25.0059
+Kelas : Instrumentasi C
+''')

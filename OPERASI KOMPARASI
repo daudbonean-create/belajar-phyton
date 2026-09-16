@@ -1,0 +1,99 @@
+# OPERASI KOMPARSI
+
+#>,<,>=,<=,==,!=,is,is not
+
+a = 4
+b = 2
+
+print("========== lebih besar dari (>)")
+
+hasil = a > 3
+print(a,">",3, "is", hasil)
+hasil = b > 3
+print(b,">",3, "is", hasil)
+hasil = b > 2
+print(b,">",2, "is", hasil)
+
+print("========== lebih kecil dari (<)")
+
+hasil = a < 3
+print(a,"<",3, "is", hasil)
+hasil = b < 3
+print(b,"<",3, "is", hasil)
+hasil = b < 2
+print(b,"<",2, "is", hasil)
+
+print("========== lebih dari sama dengan  (>=)")
+
+hasil = a >= 3
+print(a,">=",3, "is", hasil)
+hasil = b >= 3
+print(b,">=",3, "is", hasil)
+hasil = b >= 2
+print(b,">=",2, "is", hasil)
+
+print("========== kurang dari sama dengan  (<=)")
+
+hasil = a <= 3
+print(a,"<=",3, "is", hasil)
+hasil = b <= 3
+print(b,"<=",3, "is", hasil)
+hasil = b <= 2
+print(b,"<=",2, "is", hasil)
+
+print("========== sama dengan  (==)")
+
+hasil = a == 4
+print(a,"==",4, "is", hasil)
+hasil = b == 3
+print(b,"==",3, "is", hasil)
+hasil = b == 2
+print(b,"==",2, "is", hasil)
+
+print("========== tidak sama dengan  (==)")
+
+hasil = a != 4
+print(a,"!=",4, "is", hasil)
+hasil = b != 3
+print(b,"!=",3, "is", hasil)
+hasil = b != 2
+print(b,"!=",2, "is", hasil)
+
+print("========== object identity  (is)")
+x = 5
+y = 5
+
+print("nilai x =",x, "id = ", hex(id(x)))   #mempunyai id yang sama, karena nilai x = y
+print("nilai x =",y, "id = ", hex(id(y)))
+
+hasil = x is y  #membandingkan objek dengan objek menggunakan 'is', kalau objek dengan literal menggunakan '=='
+print("x is y = ",hasil)
+
+x = 5
+y = 6
+
+print("nilai x =",x, "id = ", hex(id(x)))   #keduanya punya id yang berbeda
+print("nilai x =",y, "id = ", hex(id(y)))
+
+hasil = x is y
+print("x is y = ",hasil)
+
+print("========== object identity  (is not)")
+
+x = 5
+y = 5
+
+print("nilai x =",x, "id = ", hex(id(x)))   #mempunyai id yang sama, karena nilai x = y
+print("nilai x =",y, "id = ", hex(id(y)))
+
+hasil = x is not y  #membandingkan objek dengan objek menggunakan 'is', kalau objek dengan literal menggunakan '=='
+print("x is not y = ",hasil)
+
+x = 5
+y = 6
+
+print("nilai x =",x, "id = ", hex(id(x)))   #keduanya punya id yang berbeda
+print("nilai x =",y, "id = ", hex(id(y)))
+
+hasil = x is not y
+print("x is not y = ",hasil)

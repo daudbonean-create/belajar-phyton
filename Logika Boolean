@@ -1,0 +1,88 @@
+#operasi logika boolean
+#not,or,and,xor
+
+#NOT
+print("======NOT======")
+a = False
+c = not a
+print("data a = ",a)
+print("--------------- NOT")
+print("data c = ",c)
+
+#OR
+print("======OR======")
+a = False
+b = False
+c = a or b
+print("data a = ",a)
+print("data b = ",b)
+print("--------------- OR")
+print("data", a, "or", b, "= ",c)
+
+a = True
+b = False
+c = a or b
+print("data a = ",a)
+print("data b = ",b)
+print("--------------- OR")
+print("data", a, "or", b, "= ",c)
+
+a = True
+b = True
+c = a or b
+print("data a = ",a)
+print("data b = ",b)
+print("--------------- OR")
+print("data", a, "or", b, "= ",c)
+
+#AND
+print("======AND======")
+a = False
+b = False
+c = a and b
+print("data a = ",a)
+print("data b = ",b)
+print("--------------- AND")
+print("data", a, "and", b, "= ",c)
+
+a = True
+b = False
+c = a and b
+print("data a = ",a)
+print("data b = ",b)
+print("--------------- AND")
+print("data", a, "and", b, "= ",c)
+
+a = True
+b = True
+c = a and b
+print("data a = ",a)
+print("data b = ",b)
+print("--------------- AND")
+print("data", a, "and", b, "= ",c)
+
+#XOR
+print("======XOR======")
+a = False
+b = False
+c = a ^ b
+print("data a = ",a)
+print("data b = ",b)
+print("--------------- XOR")
+print("data", a, "xor", b, "= ",c)
+
+a = True
+b = False
+c = a ^ b
+print("data a = ",a)
+print("data b = ",b)
+print("--------------- XOR")
+print("data", a, "xor", b, "= ",c)
+
+a = True
+b = True
+c = a ^ b
+print("data a = ",a)
+print("data b = ",b)
+print("--------------- XOR")
+print("data", a, "xor", b, "= ",c)

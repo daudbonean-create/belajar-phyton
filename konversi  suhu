@@ -1,0 +1,17 @@
+#KONVERSI SATUAN SUHU
+
+#SUHU CELCIUS
+celcius = float(input("masukkan suhu dalam celcius : "))
+print("suhu adalah = ", celcius, "°C")
+
+#KONVERSI KE REAMUR
+reamur = (4/5) * celcius
+print("nilainya dalam reamur adalah = ", reamur,"°R")
+
+#KONVERSI KE FAHRENHAIT
+fahrenhait = ((9/5) * celcius) + 32
+print("nilainya dalam fahrenhait adalah = ", fahrenhait,"°F")
+
+#KONVERSI KE KELVIN
+kelvin = celcius + 273.15
+print("nilainya dalam kelvin adalah = ", kelvin,"K")

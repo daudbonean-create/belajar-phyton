@@ -1,0 +1,72 @@
+#Latihan operasi string
+
+#1. menyambung string
+nama_depan = "Daud"
+nama_tengah = "D"
+nama_belakang = "Prince"
+
+#2.menggabungkan string
+nama_lengkap = nama_depan + " " + nama_tengah + "'" + nama_belakang
+print(nama_lengkap)
+
+#2 menghitung panjang string
+panjang = (len(nama_lengkap))
+print("panjang dari"+ " " + nama_lengkap + "=" + str(panjang))
+
+#3.operator untuk string
+
+#a.mengecek komponen di string
+huruf_d = "P"
+status = huruf_d in nama_lengkap
+print(type(status))
+print("status"+ " "+ huruf_d + " " + "di" + " " + nama_lengkap +" " + "adalah" +" " + str(status))
+
+#b.mengulang string
+
+print("wk" * 10)
+print(10 * "wk")
+
+#c.indexing
+print("indeks ke-0 : " + nama_lengkap[0])
+print("indeks ke-1 : " + nama_lengkap[1])
+print("indeks ke-2 : " + nama_lengkap[2])
+print("indeks ke-6 : " + nama_lengkap[6])
+print("indeks ke-12 : " + nama_lengkap[12])
+print("indeks ke-(-1) : " + nama_lengkap[-1])
+print("indeks ke-(-2) : " + nama_lengkap[-2])
+print("indeks ke-(0 sampai 4) : " + nama_lengkap[0:4])
+print("indeks ke-(5 sampai 13) : " + nama_lengkap[5:13])
+print("indeks ke-(0 sampai 7, diloncati 2) : " + nama_lengkap[0:7:2])
+
+#d.mencari item paling kecil (urut abjad)
+print("item paling kacil adalah : " + min(nama_lengkap))
+#e.mencari item paling besar (urut abjad)
+print("item paling besar adalah : " + max(nama_lengkap))
+
+ascii_code = ord(" ")
+print(type(ascii_code))
+print("ascii code untuk spasi adalah : " + str(ascii_code))
+
+ascii_code = ord("u")
+print("ascii code untuk "u" adalah : " + str(ascii_code))
+
+ascii_code = ord("'")
+print('''ascii code untuk "'" adalah : ''' + str(ascii_code))
+
+data = 32
+print("character untuk ascii code 32 adalah : " + chr(data))
+
+data = 117
+print("character untuk ascii code 32 adalah : " + chr(data))
+
+#f.Operator dalam bentuk method
+
+data = "otong surotong pororotong"
+jumlah = data.count("o")  #di sisni posisinya data = objek, dan count = method
+print('''jumlah huruf "o" adalah ''' + str(jumlah))
+
+jumlah = data.count("p")  #di sisni posisinya data = objek, dan count = method
+print('''jumlah huruf "p" adalah ''' + str(jumlah))
+
+jumlah = data.count("r")  #di sisni posisinya data = objek, dan count = method
+print('''jumlah huruf "r" adalah ''' + str(jumlah))

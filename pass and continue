@@ -1,0 +1,37 @@
+#PASS
+
+#pass --> berfungsi sebagai dummy, tidak akan dieksekusi
+
+angka = 0 
+print(f"angka sekarang :{angka}")
+
+while angka <5:
+    angka +=1
+    print(f"angka sekarang :{angka}")
+    
+    if angka == 3:
+        print("gacor")
+        pass    #lewat saja ke bawah (tetap loop utama)
+        
+    print("oke")
+
+
+
+#CONTINUE
+
+
+angka = 0 
+
+print(f"angka sekarang :{angka}")
+
+while angka <5:
+    angka +=1
+    print(f"angka sekarang :{angka}")   #aksi 1
+    
+    if angka == 3:
+        print("gacor")
+        continue    #akan membuat loop meloncat ke step selanjutnya (loop kecil/baru)
+        
+    print("oke")    #aksi 2
+
+print("finish")

@@ -1,0 +1,23 @@
+print(10*"=")
+print("kalkulator sederhana")
+print(10*"=")
+
+angka_1 = float(input("masukkan angka 1 : "))
+operator = input("oprrator (+,-,*,/) : ")
+angka_2 = float(input("masukkan angka 2 : "))
+
+#percabangan
+
+if operator == "+" :
+    hasil = angka_1 + angka_2
+    print(f"hasilnya adalah : {hasil:.0f}") #0 angka di belakang koma
+
+elif operator == "-" :
+    hasil = angka_1 - angka_2
+    print(f"hasilnya adalah : {hasil:.0f}")
+elif operator == "*" :
+    hasil = angka_1 * angka_2
+    print(f"hasilnya adalah : {hasil:.0f}")
+elif operator == "/" :
+    hasil = angka_1 / angka_2
+    print(f"hasilnya adalah : {hasil:.0f}")

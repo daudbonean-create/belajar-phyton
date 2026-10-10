@@ -1,26 +1,31 @@
-angka2_list = [0,1,2,3,4]    #ini adalah list
+#perulangan (loop)
+angka_list = [0,1,2,3]   #ini adalah list
 
-for i in angka2_list:
-    print(f"i sekarang adalah --> {i}")
-    
-print('akhir dari program 1\n')
-    
-#range
-angka2_range = range(5)
-    
-for i in angka2_range:
-    print(f"i sekarang --> {i} ")
-    
-print('akhir dari program 2\n')
+for i in angka_list :
+    print(f"angka ke-i adalah {i}")
 
-angka2_range = range(0,10)  #range 0-10
-    
-for i in angka2_range:
-    print(f"i sekarang --> {i} ")
-    
-#string
+print("akhir program 1\n")
 
-data_str = "saya gacor abis"
+#dengan range
+angka_range = range(5)
 
-for eja in data_str:
-    print(eja)
+for i in angka_range :
+    print(f"angka ke-i adalah {i}")
+    
+print("akhir program 2\n")
+
+#pakai pembatas
+
+angka_range = range(1,10)  # maksudnya adalah antara 1 sampai 10
+
+for i in angka_range :
+    print(f"angka ke-i adalah {i}")
+    
+print("akhir program 3\n")
+
+#menggunakan string
+
+data_string = "ini adalah string"
+
+for huruf in data_string :
+    print(f"huruf ke-i adalah {huruf}") #akan me-loop satu per satu huruf dari string

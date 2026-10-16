@@ -40,3 +40,24 @@ while angka < 5:
     print("lajut dulu")
     
 print(f"cukup sampai sini")
+
+
+
+
+
+
+
+data_int = int(input("hitung sampai :"))
+
+angka = 0
+
+while True:
+    angka +=1
+    print(f"count = {angka}")
+    
+    if angka == data_int:
+        break   #akan menghentikan perulangan, sehingga print dibawahnya tidak akan dieksekusi
+    
+    print("lajut dulu")
+    
+print(f"cukup sampai sini")

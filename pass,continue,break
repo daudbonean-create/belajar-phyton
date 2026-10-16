@@ -1,0 +1,42 @@
+#pass (berfungsi sebagai dummy, tidak bisa dieksekusi)
+angka = 0
+
+while angka < 5 :
+    angka += 1
+    
+    if angka == 3 :
+        pass    #ini tidak akan dieksekusi, hanya sebagai dummy
+    
+    print(angka)
+    
+print("akhir dari pass\n")
+    
+#continue (berfungsi untuk melewati perulangan tertentu)
+angka = 0
+print(f"angka sekarang adalah {angka}")
+ 
+while angka < 5:
+    angka += 1
+    print(f"angka sekarang adalah {angka}")
+    
+    if angka == 3:
+        print("nice")
+        continue    #akan membuat perulangan kembali ke awal, sehingga print dibawahnya tidak akan dieksekusi
+    
+    print("whassup")
+    
+#break (berfungsi untuk menghentikan perulangan)
+
+angka = 0
+print(f"angka sekarang adalah --> {angka}")
+
+while angka < 5:
+    angka +=1
+    print(f"angka sekarang adalah --> {angka}")
+    
+    if angka == 3:
+        break   #akan menghentikan perulangan, sehingga print dibawahnya tidak akan dieksekusi
+    
+    print("lajut dulu")
+    
+print(f"cukup sampai sini")

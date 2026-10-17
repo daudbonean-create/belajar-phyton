@@ -43,3 +43,25 @@ while True :
         break
     
 print("program akhir while\n")
+
+
+#SEGITIGA SAMA KAKI
+
+count = 1
+spasi = int(sisi/2)
+
+while True :
+    
+    if count%2 :    #print jika ganjil (1)
+       print(" " * spasi, "+" * count)
+       spasi -= 1
+       count += 1
+            
+    else :          #akan kembali ke atas jika genap (0)
+        count += 1
+        continue
+    
+    if count > sisi :
+        break
+    
+print("program akhir while\n")

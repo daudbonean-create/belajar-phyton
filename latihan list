@@ -1,0 +1,26 @@
+#LIST
+
+data = [1,2,3,4,5,6,7,8,9]
+print("data = ",data)
+
+#cara alternatif membuat list
+data_range = range(1,20,2)  #range(start,stop,step)  #start = awal, stop = akhir, step = kelipatan
+print("data range = ",data_range)
+data_list = list(data_range)
+print("data list = ",data_list)
+print("akhir program cara alternatif\n")
+
+#list dengan for
+list_pke_for = [i**2 for i in range(1,20)]
+print(list_pke_for)
+print("akhir program lsit dengan for\n")
+
+#list dengan for dan if
+list_pke_for_if = [i for i in range(1,20) if i!=5]  #5 tidak di print
+print(list_pke_for_if)
+
+list_pke_for_if = [i for i in range(1,20) if i%2==0]    #hanya genap saja yang di print
+print(list_pke_for_if)
+
+list_pke_for_if = [i for i in range(1,20) if i%2!=0]    #hanya ganjil saja yang di print
+print(list_pke_for_if)

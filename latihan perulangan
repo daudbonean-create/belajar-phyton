@@ -1,0 +1,45 @@
+#SEGITIGA SIKU-SIKU
+
+sisi = 10
+
+#1. menggunakan for
+
+count = 1
+
+for i in range(sisi):
+    print("*" * count)
+    count += 1
+    
+
+print("program akhir for\n")
+    
+#2. menggunakan while
+
+count = 1
+while True :
+    print("*" * count)
+    count += 1
+    
+    if count > sisi :
+        break
+    
+print("program akhir while\n")
+
+#3. hanya ganjil saja
+
+count = 1
+
+while True :
+    
+    if count%2 :    #print jika ganjil (1)
+       print("*" * count)
+       count += 1
+            
+    else :          #akan kembali ke atas jika genap (0)
+        count += 1
+        continue
+    
+    if count > sisi :
+        break
+    
+print("program akhir while\n")

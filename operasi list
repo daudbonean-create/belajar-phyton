@@ -1,0 +1,33 @@
+#OPERASI LIST
+
+
+data_angka = [3,3,4,2,4,6,7,4,0,9,4,1,2,4,5,3,6,7,9,8,0]
+print(f"data angka adalah : {data_angka}")
+
+#COUNT DATA
+jml_data_4 = data_angka.count(4)
+jml_data_3 = data_angka.count(3)
+
+print(f"jumlah angka 4 adalah : {jml_data_4}")
+print(f"jumlah angka 3 adalah : {jml_data_3}")
+
+#AMBIL POSISI DATA (INDEX)
+data = ["andi", "sudi", "daca", "widi", "ujang", "ceceps"]
+print(f"data adalah : {data}")
+ 
+index_didi = data.index("widi")
+print(f"index dari 'didi' adalah : {index_didi}")
+
+#MENGURUTKAN LIST (sort)
+print(f"data sebelum diurutkan : {data_angka}")
+data_angka.sort()   #akan mengurutkan data_angka dari kecil ke besar
+print(f"data setelah diurutkan : {data_angka}\n")
+
+print(f"data sebelum diurutkan : {data}")
+data.sort()   #akan mengurutkan data berdasarkan abjad
+print(f"data setelah di sort : {data}")
+
+#BALIK LIST NYA
+print(f"data angka sebelum dibalik {data_angka}")
+data_angka.reverse()
+print(f"data_angka sesudah dibalik : {data_angka}")

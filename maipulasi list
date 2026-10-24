@@ -1,0 +1,41 @@
+##operasi
+
+#indeks 0(-3)   1(-2)   2(-1)
+
+#mengambil daata dari list ini
+data = ["andi", "budi", "cecep"]
+
+data_0 = data[0]   #andi
+print(f"data pertama (indeks 0) adalah : {data_0}")
+
+data_terakhir = data[-1]   #misal kita tidak tahu yang terakhir berapa, maka kita bisa menggunakan indeks -1 untuk mengambil data terakhir
+print(f"data terakhir (indeks -1) adalah : {data_terakhir}")
+
+#mengambil info jumlah data dalam list
+panjang_data = len(data)    #menemukan panjang data dalam list
+print(f"panjang data adalah {panjang_data}")
+
+#manipulasi data dalam list
+
+#menambahkan item pada list sesuai posisi
+print(f"data sebelum ditambah : {data}")
+
+data.insert(1,"daud")
+print(f"data sesudah ditambah : {data}")
+
+data.insert(2,"pasha")
+print(f"data sesudah ditambah : {data}")
+
+#menambah di akhir list
+data.append("oji")
+print(f"data sesudah disispi data terakhir : {data}")
+
+#menambahkan list ke dalam list
+data_baru = ["doni","dina"]
+data.extend(data_baru)
+
+print(f"data gabungan : {data}")
+
+#merubah data
+data[2] = "dika"
+print(f"data rubah : {data}")

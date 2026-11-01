@@ -1,0 +1,24 @@
+#program list buku
+
+list_buku = []
+while True :
+    print("masukkan data buku")
+    judul = input("judul buku : ")
+    penulis = input("nama penulis : ")
+    
+    buku_baru = [judul,penulis]
+    list_buku.append(buku_baru) #menambahkan di akhir list
+    print(list_buku)
+    
+    print(f"{'No.':<5} | {'Judul Buku':<25} | {'Penulis'}") #sediakan ruang selebar 5 atau 25 karakter dan ratakan ke kiri
+    print("=" * 50)
+    for index, buku in enumerate(list_buku):  # Melakukan perulangan dengan nomor urut
+        print(f"{index+1:<5} | {buku[0]:<25} | {buku[1]}")
+        
+    print("=" * 50)
+    isLanjut = input("apakah ingin menambahkan data buku lagi? (y/n) : ")
+    
+    if isLanjut == "n" :
+        break
+
+#PEOGRAM SELESAI

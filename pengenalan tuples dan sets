@@ -1,0 +1,25 @@
+#List (menggunakan kurungsiku)
+data_list = [1,3,10,3,8,3]
+print(data_list)
+
+#Tuples (menggunakan kurung)
+data_tuples = (1,3,10,3,8,3)
+print(data_tuples)
+print("data_list[0] : ", data_list[0])
+print("data_tuples[0] : ", data_tuples[0])
+
+#mengubah data list
+data_list[0] = 100
+print("data_list[0] : ", data_list[0])
+
+#mengubah data tuples (akan menyebabkan error)
+#data_tuples[0] = 100
+#print("data_tuples[0] : ", data_tuples[0])
+
+
+#Sets   (tidak bisa diambil index-nya)
+
+data_set = {1,3,10,3,8,3}
+print(data_set)
+
+#print("data_set[0] : ", data_set[0]) #akan menyebabkan error karena tidak bisa diambil index-nya

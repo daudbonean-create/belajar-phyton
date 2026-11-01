@@ -1,0 +1,38 @@
+#operator dictionary
+
+data_dict = {
+    "cp" : "ucup",
+    "tg" : "otong",
+    "dg"  : "dudung",
+}
+
+#panjang dictionary
+LENDICT = len(data_dict)
+print("panjang dictionary : ", LENDICT)
+
+#mengecek key exist atau tidak
+KEY = "cp"
+CHECKKEY = KEY in data_dict
+print(f"apakah key {KEY} exist : {CHECKKEY}")
+
+#mengakses value dengan key
+print(data_dict["cp"])
+print(data_dict.get("cp"))  #ada
+print(data_dict.get("kis", "key tidak ditemukan"))  #tidak ada, return None
+
+#mengupdate data
+data_dict["cp"] = "ucup surucup"    #mengubah value dengan key tertentu
+print(data_dict)
+
+data_dict["sep"] = "asep si kasep"  #menambah data baru
+print(data_dict)
+
+data_dict.update({"cp" : "ucup", "sep" : "asep aja"})   #dikembalikan ke data awal dengan cara ".update({"key" : "value terbaru"})"
+print(data_dict)
+
+data_dict.update({"ud" : "daud"})   #menambah data baru dengan cara ".update({"key" : "value terbaru"})" jika sebelumnya key tidak ada, maka akan menambah data baru
+print(data_dict)
+
+#mendelete data pada dictionary
+del data_dict["ud"] #menghapus data dengan key tertentu
+print(data_dict)
